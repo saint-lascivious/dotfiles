@@ -1,0 +1,15 @@
+[user]
+    name = 
+    email = 
+    signingkey = 
+[color]
+    ui = auto
+[core]
+    editor = nano
+    autocrlf = input
+    whitespace = blank-at-eof,blank-at-eol,tab-in-indent,space-before-tab
+    pager = less
+[help]
+    autocorrect = 1
+[commit]
+    template = /home/saint/.config/git/gitmessage

@@ -1,0 +1,10 @@
+# Include the system provided inputrc
+#  - Make your inputrc edits here, global edits in /etc/inputrc is
+#    considered bad practice and modifications aren't guaranteed
+#    to persist.
+$include /etc/inputrc
+
+# Make shell Tab-Complete case insensitive
+#  - Because failing to complete foo vs. FOO or vice versa is unreasonably
+#    annoying.
+set completion-ignore-case On
